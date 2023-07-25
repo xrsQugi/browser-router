@@ -22,7 +22,7 @@ export default function Clock() {
         he was 20 he had already designed his first race car under the colors of
         Renault.
       </p>
-      <img className={css.photo_car} src="https://www.pagani.com/app/uploads/2021/03/PaganiRadunoIta2021_05626-1980x1320.jpg" alt="car photo" />
+      <img className={css.photo_car} src="https://www.pagani.com/app/uploads/2021/03/PaganiRadunoIta2021_05626-1980x1320.jpg" alt="car" />
     </div>
   );
 }
