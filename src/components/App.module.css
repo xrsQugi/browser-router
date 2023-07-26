@@ -3,15 +3,16 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 3px #D8E4F3 solid;
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .nav_menu{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 10px;
 }

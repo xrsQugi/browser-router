@@ -27,17 +27,17 @@ export default function App() {
   return (
     <div>
       <div className={css.block}>
-        <img src="https://logos-world.net/wp-content/uploads/2021/09/Pagani-Logo.png" height="40px" alt="logo" />
+        <img src="https://logos-world.net/wp-content/uploads/2021/09/Pagani-Logo.png" height="30px" alt="logo" />
         <nav className={css.nav_menu}>
-        <StyledLink to="/">Home</StyledLink>
-        <StyledLink to="/about">About</StyledLink>
-        <StyledLink to="/products">Products</StyledLink>
+        <StyledLink to="/browser-router/">Home</StyledLink>
+        <StyledLink to="/browser-router/about">About</StyledLink>
+        <StyledLink to="/browser-router/counter">Counter</StyledLink>
         </nav>
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Clock />} />
-        <Route path="/products" element={<Counter />} />
+        <Route path="/browser-router/" element={<Home />} />
+        <Route path="/browser-router/about" element={<Clock />} />
+        <Route path="/browser-router/counter" element={<Counter />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
