@@ -32,6 +32,7 @@ export default function App() {
         <StyledLink to="/browser-router/">Home</StyledLink>
         <StyledLink to="/browser-router/about">About</StyledLink>
         <StyledLink to="/browser-router/counter">Counter</StyledLink>
+        <StyledLink to="/browser-router/404">Try 404</StyledLink>
         </nav>
       </div>
       <Routes>
