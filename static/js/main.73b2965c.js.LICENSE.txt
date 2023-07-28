@@ -70,9 +70,3 @@
  *
  * @license MIT
  */
-
-//! Class component
-
-//! Hooks 
-
-//! rcc + Tab - отримаємо таку структуру як знизу
