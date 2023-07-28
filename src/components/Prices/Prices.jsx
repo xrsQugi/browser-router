@@ -12,6 +12,7 @@ export default function Prices() {
         <li className={css.list_price_item}>2023 Porsche Cayenne GTS - 5 965 500 ₴</li>
         <li className={css.list_price_item}>2023 Porsche 911 Turbo S PDK - 14 601 912 ₴</li>
         <li className={css.list_price_item}>2023 Porsche Panamera - 5 167 221 ₴</li>
+        <li className={css.list_price_item}>2023 Porsche Taycan 4S - 5 822 000 ₴</li>
       </ul>
     </div>
   );
