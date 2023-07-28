@@ -1,0 +1,27 @@
+.block{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 18px;
+    color: #000814;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 10px;
+}
+
+.list_facts{
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+    gap: 5px;
+}
+
+.list_fact_item{
+    color: #000814;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+

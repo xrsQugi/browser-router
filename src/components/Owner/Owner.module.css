@@ -1,0 +1,11 @@
+.block{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.text{
+    color: #000814;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}

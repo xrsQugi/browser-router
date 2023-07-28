@@ -6,6 +6,10 @@ import About from '../pages/About/About';
 import Cars from '../pages/Cars/Cars';
 import CarDetails from './CarDetails/CarDetails';
 import NotFound from '../pages/NotFound/NotFound';
+import Prices from './Prices/Prices';
+import Owner from './Owner/Owner';
+import Facts from './Facts/Facts';
+
 
 import css from './App.module.css';
 
@@ -38,7 +42,11 @@ export default function App() {
       </div>
       <Routes>
         <Route path="/browser-router/" element={<Home />} />
-        <Route path="/browser-router/about" element={<About />} />
+        <Route path="/browser-router/about" element={<About />}>
+          <Route path="prices" element={<Prices />} />
+          <Route path="owner" element={<Owner />} />
+          <Route path="facts" element={<Facts />} />
+        </Route>
         <Route path="/browser-router/cars" element={<Cars />} />
         <Route path="/browser-router/cars/:id" element={<CarDetails />} />
         <Route path="*" element={<NotFound />} />

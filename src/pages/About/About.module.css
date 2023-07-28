@@ -2,8 +2,33 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
+    border: 1px #000814 solid;
+}
+
+.list_item{
+    font-size: 22px;
+    color: #001D3D;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.list li{
+    width: 100%;
+}
+
+.line{
+    width: 100%;
+    color: #000814;
 }
