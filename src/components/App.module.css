@@ -5,9 +5,9 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    border-bottom: 3px #D8E4F3 solid;
+    border-bottom: 3px #000814 solid;
     width: 90%;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
     gap: 20px;
 }

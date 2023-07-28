@@ -1,0 +1,15 @@
+.container{
+    padding: 10px 20px;
+    background-color: #001D3D;
+}
+
+.text{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.photo_car{
+    width: 100%;
+    max-width: 900px;
+}

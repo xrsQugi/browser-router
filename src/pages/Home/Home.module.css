@@ -1,0 +1,32 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 40px;
+    color: #001D3D;
+    margin: 20px 0 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.photo_car{
+    width: 100%;
+    max-width: 900px;
+}
+
+.container{
+    padding: 10px 20px;
+    background-color: #001D3D;
+}
+
+.text{
+    font-size: 26px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}

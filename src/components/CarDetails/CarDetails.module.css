@@ -1,0 +1,35 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.photo{
+    max-width: 900px;
+    width: 100%;
+}
+
+.title{
+    font-size: 30px;
+    color: #000814;
+    margin: 20px 0 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.text{
+    font-size: 20px;
+    color: #000814;
+    font-family: 'Inter', sans-serif;
+}
+
+.back{
+    font-size: 20px;
+    font-weight: 600;
+    color: #003566;
+    font-family: 'Inter', sans-serif;
+}
