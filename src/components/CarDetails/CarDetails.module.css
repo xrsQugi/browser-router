@@ -13,13 +13,16 @@
     width: 100%;
 }
 
+.block_text{
+    padding: 20px 0;
+}
+
 .title{
     font-size: 30px;
     color: #000814;
-    margin: 20px 0 0;
+    margin: 0;
     font-family: 'Inter', sans-serif;
 }
-
 
 .text{
     font-size: 20px;
