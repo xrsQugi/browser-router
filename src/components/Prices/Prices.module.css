@@ -6,6 +6,13 @@
     gap: 5px;
 }
 
+.text{
+    color: #000814;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
 .list_prices{
     list-style: circle;
     display: flex;
