@@ -34,21 +34,21 @@ export default function App() {
       <div className={css.block}>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Porsche_Wortmarke.svg/2560px-Porsche_Wortmarke.svg.png" height="15px" alt="logo" />
         <nav className={css.nav_menu}>
-        <StyledLink to="/">Home</StyledLink>
-        <StyledLink to="/about">About</StyledLink>
-        <StyledLink to="/cars">Cars</StyledLink>
-        <StyledLink to="/404">Try 404</StyledLink>
+        <StyledLink to="/browser-router/">Home</StyledLink>
+        <StyledLink to="/browser-router/about">About</StyledLink>
+        <StyledLink to="/browser-router/cars">Cars</StyledLink>
+        <StyledLink to="/browser-router/404">Try 404</StyledLink>
         </nav>
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />}>
+        <Route path="/browser-router/" element={<Home />} />
+        <Route path="/browser-router/about" element={<About />}>
           <Route path="prices" element={<Prices />} />
           <Route path="owner" element={<Owner />} />
           <Route path="facts" element={<Facts />} />
         </Route>
-        <Route path="/cars" element={<Cars />} />
-        <Route path="/cars/:id" element={<CarDetails />} />
+        <Route path="/browser-router/cars" element={<Cars />} />
+        <Route path="/browser-router/cars/:id" element={<CarDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
